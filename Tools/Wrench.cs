@@ -11,7 +11,7 @@ public class Wrench : Tool
     }
     public override void Use()
     {
-        Console.WriteLine("use: Inserting nails");
+        Console.WriteLine("use: Tightening screws and nuts");
     }
 }
 }
