@@ -7,7 +7,7 @@ public class Saw : Tool
     }
     public override void Describe()
     {
-        Console.WriteLine($"tool: {this.name} \ndescribe: is used to cut materials such as wood, metal, plastic, and even concrete..\nweight: {this.weight}");
+        Console.WriteLine($"tool: {this.name} \ndescribe: is used to cut materials such as wood, metal, plastic, and even concrete.\nweight: {this.weight}");
     }
     public override void Use()
     {
