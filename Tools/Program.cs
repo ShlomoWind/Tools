@@ -14,6 +14,8 @@ namespace Tools
             ListToolBox.Add(new Hammer(5));
             ListToolBox.Add(new Drill(1));
             ListToolBox.Add(new PipeCutter(2));
+            ListToolBox.Add(new WireStripper(3));
+            ListToolBox.Add(new NailGun(8));
             foreach(Tool tool in ListToolBox)
             {
                 tool.Describe();
