@@ -10,6 +10,10 @@ public class Tool
         this.name = name;
         this.weight = weight;
     }
+    public string GetName()
+    {
+        return this.name;
+    }
     public virtual void Describe()
     {
         Console.WriteLine($"\ntool: {this.name} \nweight: {this.weight}");
