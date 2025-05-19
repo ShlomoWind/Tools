@@ -10,6 +10,14 @@ namespace Tools
     {
         static void Main(string[] args)
         {
+            List<Tool> ListToolBox = new List<Tool>();
+            ListToolBox.Add(new Hammer(5));
+            ListToolBox.Add(new Drill(1));
+            ListToolBox.Add(new PipeCutter(2));
+            foreach(Tool tool in ListToolBox)
+            {
+                tool.Describe();
+            }
         }
     }
 }
