@@ -17,6 +17,7 @@ namespace Tools
             foreach(Tool tool in ListToolBox)
             {
                 tool.Describe();
+                tool.Use();
             }
         }
     }
