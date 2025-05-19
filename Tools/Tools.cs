@@ -12,7 +12,7 @@ public class Tool
     }
     public virtual void Describe()
     {
-        Console.WriteLine($"tool: {this.name} \nweight: {this.weight}");
+        Console.WriteLine($"\ntool: {this.name} \nweight: {this.weight}");
     }
     public virtual void Use()
     {

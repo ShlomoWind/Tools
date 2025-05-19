@@ -7,7 +7,7 @@ public class Hammer : Tool
     }
     public override void Describe()
     {
-        Console.WriteLine($"tool: {this.name} \ndescribe: is a hand tool used to hit, knock, and break various objects.\nweight: {this.weight}");
+        Console.WriteLine($"\ntool: {this.name} \ndescribe: is a hand tool used to hit, knock, and break various objects.\nweight: {this.weight}");
     }
     public override void Use()
     {
