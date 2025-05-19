@@ -10,6 +10,6 @@ public class Drill : Tool
     }
     public override void Use()
     {
-        Console.WriteLine("use: Inserting nails");
+        Console.WriteLine("use: Drilling holes in walls");
     }
 }
