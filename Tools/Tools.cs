@@ -10,11 +10,11 @@ public class Tool
         this.name = name;
         this.weight = weight;
     }
-    public void Describe()
+    public virtual void Describe()
     {
         Console.WriteLine($"tool: {this.name} \nweight: {this.weight}");
     }
-    public void Use()
+    public virtual void Use()
     {
         Console.WriteLine("Tool is being used");
     }
