@@ -51,6 +51,7 @@
     <Compile Include="Saw.cs" />
     <Compile Include="Screwdriver.cs" />
     <Compile Include="Tools.cs" />
+    <Compile Include="WireStripper.cs" />
     <Compile Include="Wrench.cs" />
   </ItemGroup>
   <ItemGroup>
